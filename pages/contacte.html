@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Studio 444</title>
+	<link rel="icon" type="image/png" href="../src/all pages/img/footer_logo.png">
+	<link rel="stylesheet" href="../css/contacte.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+		integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />">
+</head>
+
+<body>
+	<div class="all">
+		<header class="header">
+			<div class="container header__container">
+				<a href="#" class="logo">
+					<img class="logo__img" src="../src/hero.png" alt="">
+				</a>
+				<nav class="menu">
+					<input id="burger-toggle" type="checkbox">
+					<label for="burger-toggle">
+						<span></span>
+					</label>
+					<ul class="menu__list">
+						<li class="menu__item">
+							<a class="menu__link" href="../index.html">
+								Acasă
+							</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="despre.html">
+								Despre noi
+							</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="price.html">
+								Prețuri
+							</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="contacte.html">
+								Contacte
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<div class="main-contacts">
+			<div class="text-contacts">
+				<h1>Contacte</h1>
+			</div>
+			<div class="anim contacts-container">
+				<div class="anim contacts">
+					<div class="anim box">
+						<div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+						<div class="text">
+						<h3><b>Adresa: </b></h3>
+							<p>str. Vasile Alecsandri 16</p>
+						</div>
+					</div>
+					<div class="anim box">
+						<div class="icon"><i class="fa-solid fa-phone"></i></div>
+						<div class="text">
+							<h3><b>Telefon: </b></h3>
+							<p>060062444</p>
+						</div>
+					</div>
+					<div class="anim box">
+						<div class="icon"><i class="fa-solid fa-clock"></i></div>
+						<div class="text">
+							<h3><b>Ore de lucru: </b></h3>
+							<p>Zilnic 9:00 - 20:00</p>
+						</div>
+					</div>
+					<div class="anim box">
+						<div class="icon"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></div>
+						<div class="text">
+							<h3><b>Instagram: </b></h3>
+							<p>studioul__444</p>
+						</div>
+					</div>
+				</div>
+				<div class="anim feedback">
+					<form action="https://api.web3forms.com/submit" method="POST">
+
+						<input type="hidden" name="access_key" value="795228d2-84c2-4f1f-976c-dcd1c26315a3">
+
+						<h2>Feedback</h2>
+						<div class="input-box">
+							<input type="text" name="numele" required="required">
+							<span>Nume Prenume</span>
+						</div>
+						<div class="input-box">
+							<input type="text" name="numarul de telefon" required="required">
+							<span>Număr de telefon</span>
+						</div>
+						<div class="input-box">
+							<textarea name="measajul" required="required"></textarea>
+							<span>Scrie measajul...</span>
+						</div>
+						<div class="input-box">
+							<input type="submit" value="Send">
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="map-contacts">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d169.4000449083641!2d27.79813184128522!3d47.208741076686785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cb01006120e383%3A0x44b406fdff677e15!2sStudio%20444%20Barbershop!5e0!3m2!1sro!2s!4v1739551778688!5m2!1sro!2s"
+					width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+
+		</div>
+	</div>
+
+	<footer class="main-footer">
+		<div class="footer-container">
+			<p class="footer-contacts">
+				<b>Studio 444</b><br>
+				<i class="fa-solid fa-location-dot"></i> str. Vasile Alecsandri 16 <br>
+				<i class="fa-solid fa-phone"></i> 060062444<br>
+				<i class="fa-solid fa-clock"></i> Zilnic 9:00 - 20:00 <br>
+			</p>
+
+			<div class="pop_up" id="pop_up">
+				<div class="pop_up_container">
+					<div class="pop_up_body" id="body_pop_up">
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d169.4000449083641!2d27.79813184128522!3d47.208741076686785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cb01006120e383%3A0x44b406fdff677e15!2sStudio%20444%20Barbershop!5e0!3m2!1sro!2s!4v1739551778688!5m2!1sro!2s"
+							width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+							referrerpolicy="no-referrer-when-downgrade"></iframe>
+						<div class="pop_up_close" id="close_pop_up">&#10006</div>
+					</div>
+				</div>
+			</div>
+			<div class="social-footer">
+				<img class="footer-logo" src="../src/all pages/img/footer_logo.png" width="120" height="220"
+					alt="Logotipul Studio 444">
+				<p>Follow Us!</p>
+				<a target="_blank" class="button social-button" href="https://www.instagram.com/studioul__444/"
+					aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+					<div class="map_n"><a href="#" id="open_pop_up">Cum să ajungeți la noi?</a></div>
+			</div>
+			<div class="create">
+				<b>Creat de:</b>
+				<p>
+					Acest site a fost creat în cadrul competiției "Tekwill Junior Ambassadors" organizată de
+					proiectul
+					"Tekwill în fiecare școală" și nu reflectă neapărat opinia proiectului.
+				</p>
+
+			</div>
+		</div>
+	</footer>
+
+
+	</div>
+
+	<script src="../js/script.js"></script>
+	<script src="../js/pop_up.js"></script>
+
+</body>
+
+</html>
